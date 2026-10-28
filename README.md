@@ -20,13 +20,13 @@ conda create -n env python=3.10 -y
 conda activate env
 pip install pandas numpy
 ```
-**2. Generate the Data
+**2. Generate the Data**
 ```
 python src/generator.py
 ```
 (This will populate the /output folder with 12 CSV files, including ground_truth.csv which contains the injected edge case labels).
 
-**3. Run the Validator
+**3. Run the Validator**
 ```
 python src/validator.py
 ```
