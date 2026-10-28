@@ -1,0 +1,6 @@
+issue_type,entity_id,rule_violated,expected_decision
+faculty_assigned_outside_skill_set,WLA-2026-000001,Faculty FAC-000001 lacks skill for CRS-000002,Reassign to skilled faculty
+workload_exceeded,WLA-2027-000002,hours_assigned exceeds max_workload_hours,Reduce hours or reassign section
+section_capacity_too_low,SEC-2026-000001,Enrolled students > room capacity,Move to larger room
+course_scheduled_before_prerequisite,INT-000001,Target course scheduled without prerequisite completion,Drop registration or require prerequisite
+duplicate_section_assignment,WLA-ERR-999999,Faculty assigned to same section twice,Delete duplicate record

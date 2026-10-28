@@ -1,0 +1,10 @@
+{
+  "project_name": "Course Demand and Faculty Allocator",
+  "data_provenance": {
+    "is_synthetic": true,
+    "generation_method": "Python numpy.random generator",
+    "random_seed_used": 20261022,
+    "external_public_data_used": false,
+    "author_statement": "All records, names, and IDs were generated synthetically. No external datasets, confidential information, or PII were utilized."
+  }
+}
